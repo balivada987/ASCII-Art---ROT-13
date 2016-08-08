@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{%  block content %}
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>I am Here</title>
+</head>
+<body>
+
+</body>
+</html>
+<h1>Hi everybody</h1>
+//fizz Buzz
+ <input type="hidden" name="hidden" value="eggs"> food
+ <input type="submit" name="add">
+ </form>
+<h2  value="raja">Hi{{Name}}</h2>
+<p>The quick brown {{animal1}} jumped over the lazy {{animal2}}2</p>
+<label> n <input type="text" name="n" value=""></label>
+<input type="submit" name="add">
+
+    <ol>{%  for i in range(1,n+1) %}  <li>
+        {% if n%15==0 %} FizzBuzz
+        {% elif n%3==0 %}Fizz
+        {% elif n%5==0 %} Buzz
+        {%  else %} {{n}}
+        {% endif %}
+
+    {% endfor %}
+    </li>
+    </ol>
+
+</body>
+</html>
+{% endblock %}
